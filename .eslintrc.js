@@ -14,6 +14,8 @@ module.exports = {
 	rules: {
 		'semi': 'off',
 		'comma-dangle': 'off',
-		'require-jsdoc': 'off'
+		'require-jsdoc': 'off',
+		"eol-last": 0,
+		"no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
 	}
 };
